@@ -1,0 +1,150 @@
+header {
+   background-image: url(musica.jpg);
+   width: 100%;
+   height: 240px;
+}
+
+header img {
+   width: 200px;
+   height: 200px;
+   box-shadow: 10px 10px #7f7f7f;
+}
+
+
+nav {
+   position: absolute;
+   top: 210px;
+   right: 0;   
+}
+
+nav li {
+   margin: 0 0 0 15px;
+   display: inline;
+   background-color: #D3D3D3;
+}
+
+nav a {
+   text-transform: uppercase;
+   font-size: 28px;
+   text-decoration: none;
+   font-weight: bolt;
+   color: black;
+   line-height: 28px;
+   font: verdana;
+}
+
+body {
+	background-image: url(ennio.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section {
+   margin-right: 30%;
+   width: 50%;
+   border: 3px solid rgba(143, 168, 168, 0);
+   padding: 10px;
+   text-align: justify;
+   padding-top: 100px;
+}
+
+.principal {
+   padding-top: 100px;
+   color: #ffffff;
+}
+
+.titulos {
+   height: 50px;
+   font-size: 28px;
+   text-align: center;
+}
+
+.filmes {
+   height: 50px;
+   font-size: 35px;
+   text-align: center;
+   padding-bottom: 50px;
+   
+}
+
+.topfilmes {
+   margin:auto;
+    width: 50%;
+    border: 3px solid rgba(143, 168, 168, 0);
+    padding: 10px;
+    text-align: justify;
+    padding-top: 100px;
+    display: center;
+}
+
+ol {
+   display: inline-block;
+   vertical-align: top;
+   width: 35%;
+   margin-right: 10%;
+   text-decoration: none;
+   transform: scale(1.2);
+}
+
+.imgtop {
+   width: 50%;
+   height: 380px;
+}
+
+footer{
+   background-color: #696969;
+   height: 150px;
+   width: 100%;
+   font-size: 20px;
+   line-height: 7px;
+   font-weight: 100;
+   font-style: italic;
+   line-height: 80px;
+}
+
+footer{
+    background-color: rgb(129, 125, 125);
+    margin-right: 50px auto;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+}
+ footer p{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 20px;
+    float: left;
+}
+footer h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.rede{
+    width: 40px;
+    height: 40px;
+    float: right;
+    /* margin-left: 20px; */
+    margin-right: 40px;
+    transition: all 0.4s ease-out;
+    border-radius: 50%;
+
+}
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+}
+.icone{
+    margin: 0px;
+    padding: 10px 10px ;
+    width: 50px;
+    height:50px;
+    border-radius: 40px;
+}
+
+.menu:hover{
+    cursor: pointer;
+}
